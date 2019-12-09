@@ -1,0 +1,55 @@
+.body {
+    background-color: #adc1e6;
+    padding-top: 25px; 
+}
+
+#root {
+    padding: 30px; 
+}
+
+#logout {
+    padding: 10px; 
+    outline: none; 
+    margin: 30px;
+    background-color: blue; 
+    color: white; 
+}
+
+#logout:hover {
+    background-color: navy;
+}
+
+.new-bleat-form {
+    margin: 15px; 
+    display: flex; 
+    width: 300px;
+    justify-content: space-between;
+}
+
+.form-submit {
+    outline: none; 
+    background-color: blue; 
+    color: white; 
+    border-radius: 10px; 
+}; 
+
+.form-submit:hover {
+    background-color: navy;
+    cursor: pointer;
+}
+
+img {
+    margin: 15px; 
+    border: 3px
+    solid navy; 
+}
+
+.bleat-list {
+    border: 3px solid blue; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+}
+
+.bleat-list:hover {
+    border: 3px solid navy; 
+}

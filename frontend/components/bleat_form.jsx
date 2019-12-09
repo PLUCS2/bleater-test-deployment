@@ -30,7 +30,7 @@ class BleatForm extends React.Component {
   }
 
   render() {
-    return <form onSubmit={ this.handleSubmit }>
+    return <form class="new-bleat-form" onSubmit={ this.handleSubmit }>
       <label htmlFor="bleat-body">Body</label>
       <input 
         type="text" 
@@ -39,7 +39,7 @@ class BleatForm extends React.Component {
         value={ this.state.body }
       />
 
-      <button>Create the bleat!</button>
+      <button class="form-submit">Create the bleat!</button>
     </form>;
   }
 

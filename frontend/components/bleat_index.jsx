@@ -33,7 +33,7 @@ class BleatIndex extends React.Component {
     return (
       <>
         <img src={window.bleaterIMG} />
-        <ul>{ bleatLis }</ul>
+        <ul class="bleat-list">{ bleatLis }</ul>
       </>);
   }
 
