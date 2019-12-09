@@ -56,7 +56,6 @@ class BleatsController < ApplicationController
       # render json: bleat.errors.full_messages, status: 422
       render :edit, status: 422
     end
-    end 
   end
 
   def destroy
