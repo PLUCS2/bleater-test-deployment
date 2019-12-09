@@ -30,7 +30,11 @@ class BleatIndex extends React.Component {
       return <li key={bleat.id}>{bleat.body} - {author.email}</li>
     });
 
-    return <ul>{ bleatLis }</ul>;
+    return (
+      <>
+        <img src={window.bleaterImg} />
+        <ul>{ bleatLis }</ul>
+      </>);
   }
 
 };
