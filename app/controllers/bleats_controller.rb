@@ -71,4 +71,3 @@ class BleatsController < ApplicationController
   end
 
 end
-end 
